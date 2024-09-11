@@ -58,7 +58,7 @@ function start() {
 	turnLeft();
 
 }
-}
+
 
 
 
