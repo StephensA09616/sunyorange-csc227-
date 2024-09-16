@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let msg = "Hello World";
+
+        console.log(msg);
+
+        function fToC(f) {
+            let c = (f - 32) * 5 / 9;
+            return c;
+        }
+
+        function cToK(c) {
+            let k = c + 273.15;
+            return k;
+        }
+
+        function fToK(f) {
+            let Cel = fToC(f);
+            let Kev = cToK(Cel);
+            return Kev;
+        }
+    </script>
+</body>
+
+</html>
