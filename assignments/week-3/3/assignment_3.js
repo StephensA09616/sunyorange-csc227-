@@ -17,7 +17,7 @@ function quotient(x, y) {
 
 
 function sumFirstNIntergers(N) {
-   return Math.floor (N*(N+1)/2);
+   return (N*(N+1)/2);
 }
 
 let N = 3;
@@ -29,7 +29,7 @@ console.log (sumFirstNIntergers(N));
 */
 
 function areaOfTriangle(h, b) {
-    return Math.floor (1/2 * b * h);
+    return (1/2 * b * h);
 }
 
 let b = 4;
