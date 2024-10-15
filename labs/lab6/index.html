@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Index</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Email</h1>
+    <div class="container">
+        <h2>Add Name and Email</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <button onclick="onAddEmail()">Add</button>
+    </div>
+    <div class="container">
+        <h2>Show Email</h2>
+        <label for="retrieveName">Name:</label>
+        <input type="text" id="retrieveName" required>
+        <button onclick="onShow()">Retrieve</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
